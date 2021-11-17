@@ -8,14 +8,71 @@
 
 .container
 {
-    width: 1200px;
+    width: 1400px;
     margin: auto;
 }
 
+/* UTILITIES */
+
+.clearfix::after
+{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+/* Buttons */
+.btn{
+
+    border-radius: 20px;
+    text-decoration: none;
+}
+.btn-small
+{
+    padding: 10px 15px;
+}
+.btn-light
+{
+    background-color: white;
+    color: black;
+}
 /* HEARDER TOP */
 
-/* Logo */
+.hearder-top
+{
+    background-color:#3161e0;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
 .col
 {
     float: left;
 }
+.col-side
+{
+    width: 20%;
+}
+.col-center
+{
+    width: 60%;
+}
+/* Logo */
+#logo
+{
+    vertical-align: middle;
+
+}
+/* NavBar */
+li
+{
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+
