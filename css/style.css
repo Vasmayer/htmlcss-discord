@@ -153,11 +153,6 @@ section
    width: 49%;
    display: inline-block;
 }
-
-.section-image-to-speak
-{
-    height: 100%;
-}
 .section-text
 {
   padding: 0 150px;
@@ -167,3 +162,4 @@ section
     font-size: 50px;
 }
 
+/* to-meet */
