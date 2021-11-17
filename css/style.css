@@ -26,15 +26,30 @@
 
     border-radius: 20px;
     text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: blue;
 }
 .btn-small
 {
     padding: 10px 15px;
 }
+.btn-big
+{
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+}
 .btn-light
 {
     background-color: white;
     color: black;
+}
+.btn-dark
+{
+    background-color:#23272a;
+    color: white;
 }
 /* HEARDER TOP */
 
@@ -61,13 +76,13 @@
 #logo
 {
     vertical-align: middle;
-
 }
 /* NavBar */
 li
 {
     display: inline-block;
 }
+
 li a{
     color: white;
     font-size: 18px;
@@ -75,4 +90,35 @@ li a{
     margin-left: 40px;
 }
 
+/* HEARDER BOTTOM */
+.contain
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.hearder-bottom
+{
+    background-image: url("../img/jumbo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.hearder-bottom h1,.hearder-bottom h3
+{
+  color: white;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
 
+.hearder-bottom .contain{
+    width: 50%;
+}
+
+#arrow
+{
+    font-size: 30px;
+}
