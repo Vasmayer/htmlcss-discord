@@ -146,7 +146,6 @@ section
     transform: translateY(-50%);
 }
 
-/* to speak */
 
 .col-section
 {
@@ -162,4 +161,20 @@ section
     font-size: 50px;
 }
 
-/* to-meet */
+/* tecnology */
+#tecnology img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tecnology h1{
+
+    font-size: 50px;
+   text-align: center;
+   margin-bottom: 30px;
+}
+#tecnology h3{
+   text-align: center;
+   margin-bottom: 30px;
+}
